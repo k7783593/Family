@@ -3,38 +3,7 @@
 <head>
   <title>우리 가족 홈페이지-가족소개</title>
   <meta charset="utf-8">
-  <style>
-    body{
-      margin:0;
-    }
-    a {
-      color:black;
-      text-decoration:none;
-    }
-    h1 {
-      font-size:50px;
-      text-align:center;
-      border-bottom:1px solid gray;
-      margin:0;
-      padding:20px;
-    }
-    ol{
-      border-right:1px solid gray;
-      width:100px;
-      margin:0;
-      padding:20px;
-    }
-    #grid ol{
-      paddig-left:33px;
-    }
-    #grid{
-      display:grid;
-      grid-template-columns: 150px 1fr;
-    }
-    #grid #article{
-      padding-left:25px;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-132392855-1"></script>
@@ -46,7 +15,6 @@
     gtag('config', 'UA-132392855-1');
   </script>
 </head>
-
 <body>
   <h1><a href="index.html">우리 가족</a></h1>
   <div id="grid">
@@ -55,14 +23,14 @@
       <li><a href="2.html">사진</a></li>
       <li><a href="3.html">계획</a></li>
     </ol>
-    <div id="atricle">
+    <div id="article">
       <h2>1. 가족소개</h2>
-      <p>우리가족 소개합니다.<br> 아빠 <u><a href="https://blog.naver.com/k7783593" target="_blank" title="김동현 블로그">김동현</a></u>, 엄마 <u>박난영</u>, 아들 <strong>김윤</strong>.</p>
-      <p style="margin-top:20px;">아빠는 회사원, 엄마는 휴직중, 윤이는 5개월 아가 입니다.</p>
+      <p>우리가족 소개합니다.</p>
+      <p>아빠 <u><a href="https://blog.naver.com/k7783593" target="_blank" title="김동현 블로그">김동현</a></u>, 엄마 <u>박난영</u>, 아들 <strong>김윤</strong>.</p>
+      <p>아빠는 회사원, 엄마는 휴직중, 윤이는 5개월 아가 입니다.</p>
     </div>
   </div>
-
-    <p>
+  <p>
 
     <div id="disqus_thread"></div>
     <script>
@@ -87,19 +55,19 @@
 
   </p>
 
-  <!--Start of Tawk.to Script-->
-  <script type="text/javascript">
-  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-  (function(){
-  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-  s1.async=true;
-  s1.src='https://embed.tawk.to/5c3be656494cc76b7872e209/default';
-  s1.charset='UTF-8';
-  s1.setAttribute('crossorigin','*');
-  s0.parentNode.insertBefore(s1,s0);
-  })();
-  </script>
-  <!--End of Tawk.to Script-->
+      <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/5c3be656494cc76b7872e209/default';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
 
-</body>
+ </body>
 </html>
